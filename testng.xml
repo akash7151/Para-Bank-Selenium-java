@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ParaBank Enterprise Automation Suite" parallel="false" verbose="1">
+
+    <listeners>
+        <listener class-name="com.parabank.automation.listeners.TestListener"/>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <test name="Login Tests">
+        <classes>
+            <class name="com.parabank.automation.tests.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Registration Tests">
+        <classes>
+            <class name="com.parabank.automation.tests.RegisterTest"/>
+        </classes>
+    </test>
+
+    <test name="Open Account Tests">
+        <classes>
+            <class name="com.parabank.automation.tests.OpenAccountTest"/>
+        </classes>
+    </test>
+
+    <test name="Accounts Overview Tests">
+        <classes>
+            <class name="com.parabank.automation.tests.AccountsOverviewTest"/>
+        </classes>
+    </test>
+
+    <test name="Transfer Funds Tests">
+        <classes>
+            <class name="com.parabank.automation.tests.TransferFundsTest"/>
+        </classes>
+    </test>
+
+    <test name="Bill Pay Tests">
+        <classes>
+            <class name="com.parabank.automation.tests.BillPayTest"/>
+        </classes>
+    </test>
+
+    <test name="Find Transactions Tests">
+        <classes>
+            <class name="com.parabank.automation.tests.FindTransactionsTest"/>
+        </classes>
+    </test>
+
+    <test name="Request Loan Tests">
+        <classes>
+            <class name="com.parabank.automation.tests.RequestLoanTest"/>
+        </classes>
+    </test>
+
+    <test name="Update Contact Info Tests">
+        <classes>
+            <class name="com.parabank.automation.tests.UpdateContactInfoTest"/>
+        </classes>
+    </test>
+
+</suite>

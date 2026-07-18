@@ -1,0 +1,11 @@
+# Copy to email.properties or use .env.report / Jenkins env vars (do not commit secrets)
+email.enabled=true
+email.smtp.host=smtp.gmail.com
+email.smtp.port=587
+email.smtp.secure=false
+email.smtp.user=your.email@gmail.com
+email.smtp.pass=your_gmail_app_password
+email.from=your.email@gmail.com
+email.to=akashdake9@gmail.com,akashdake16@gmail.com
+email.subject=[ParaBank Selenium] Automation Report
+email.attach.reports=true
